@@ -1,0 +1,300 @@
+				/* All idems */
+				
+				a {
+				    text-decoration: none;
+				}
+				/* ________------------__________----------_________--------------__________ */
+				/* start header  */
+				
+				body {
+				    width: 95%;
+				    margin-left: 2.5%;
+				    margin-right: 2.5%;
+				    background-color: #0661897d;
+				}
+				
+				.header {
+				    background-image: linear-gradient(90deg, #7261ce, #92f1f1);
+				    /* background-color: #41bce6; */
+				    width: 98%;
+				    margin: 0 1%;
+				    height: 17%;
+				    justify-content: space-between;
+				    align-items: center;
+				    position: fixed;
+				    left: 0px;
+				    top: 0px;
+				    box-shadow: 1px 1px 12px 3px #020065;
+				    /* background-image: url(..\icon\outline_remove_black_48dp.png); */
+				    /* background-attachment: fixed; */
+				    /* background-image: url(images/images (5).jpg); */
+				    /* background-repeat: no-repeat; */
+				    /* background-position: 100% 100%; */
+				    /* background-size: 100% 100%; */
+				    /* position: fixed; */
+				    /* width: 100%; */
+				    /* height: 20%; */
+				    /* box-shadow: 3px 0px 3px 2px black; */
+				    /* overflow: hidden; */
+				}
+				
+				.header .logo h3 span {
+				    text-transform: uppercase;
+				    font-size: 260%;
+				}
+				
+				.header .logo h3 {
+				    /* font-family: italic; */
+				    /* font-family: monospace;	 */
+				    /* font-size: 15px; */
+				    font-style: italic;
+				}
+				
+				.header .l-a {
+				    /* background-color: red; */
+				    width: 100%;
+				    height: calc(20%/3);
+				}
+				
+				.header .account .accocunt {
+				    width: 35px;
+				    position: absolute;
+				    right: 10px;
+				    top: 1px;
+				    border: 2px solid white;
+				    border-radius: 50%;
+				}
+				
+				.header .account a :hover {
+				    background-color: #41dae6;
+				}
+				
+				.header .logo {
+				    position: absolute;
+				    left: 20px;
+				    top: -20px;
+				}
+				
+				.header .logo,
+				.header .account {
+				    display: inline-block;
+				}
+				
+				.header .the-list {
+				    width: 100%;
+				    /* position: relative; */
+				}
+				
+				.header .the-list ul {
+				    /* height:  calc((20%)/3); */
+				    position: absolute;
+				    right: 0;
+				    bottom: -12px;
+				    list-style-type: none;
+				    /* height: calc((20%)/3); */
+				    /* background-color: white; */
+				    /* display: inline; */
+				    /* margin-left: 6%; */
+				}
+				
+				.header .the-list ul li {
+				    width: 10%;
+				    display: inline;
+				    /* background-color: #c5c3c1; */
+				    /* width: calc((75%-50px)/5); */
+				    margin-left: 15px;
+				    margin-right: 35px;
+				    /* width:15%; */
+				    text-align: center;
+				    padding: 15px;
+				    /* border-bottom: 2px solid white; */
+				    /* color: white; */
+				}
+				
+				.header .the-list ul li a:hover {
+				    color: white;
+				    border-bottom: 2px solid white;
+				}
+				
+				.header .the-list ul li a {
+				    width: 15%;
+				    /* background-color: white; */
+				    padding: 3px;
+				}
+				
+				.header .icon {
+				    width: 100%;
+				    height: calc((20%)/3);
+				}
+				/* .header .icon  img { */
+				/* .header .icon .int, */
+				
+				.header .icon img {
+				    position: absolute;
+				    width: 40px;
+				    bottom: -20%;
+				    background-color: #41bce6;
+				    border: 2px solid #3bb4dc;
+				    border-radius: 50%;
+				}
+				
+				.header .icon .add {
+				    left: 5px;
+				    display: none
+				}
+				/* .header .icon .int { */
+				
+				.header .icon .noti {
+				    right: 5px;
+				}
+				
+				.header,
+				.b,
+				.fott {
+				    opacity: 1;
+				}
+				/* .header .icon .int { */
+				/* display: inline; */
+				/* width: 40px; */
+				/* } */
+				/* .header .icon .int{ */
+				/* position: absolute; */
+				/* } */
+				/* .header .icon .int span { */
+				/* display: none; */
+				/* width: 40px; */
+				/* height: 40px; */
+				/* background-color: red; */
+				/* color: white; */
+				/* text-align: center; */
+				/* top: 80px; */
+				/* right: 5px; */
+				/* border-radius: 50% */
+				/* } */
+				
+				.header .icon a :hover {
+				    background-color: #00e1ff;
+				}
+				
+				.header .administration a {}
+				/* -------------------________________________----------------- */
+				
+				.b {
+				    margin-top: 80px;
+				    padding-top: 16px;
+				}
+				
+				.b .addaccont {
+				    width: 40px;
+				    background-color: #41bce6;
+				    border: 2px solid #41bce6;
+				    border-radius: 50%;
+				    margin-left: 50%;
+				    /* margin-right: auto; */
+				    /* background-position:  */
+				    position: sticky;
+				    top: 85px;
+				}
+				
+				.b {
+				    width: 100%;
+				}
+				
+				.b a :hover {
+				    background-color: #00e1ff;
+				}
+				/* ---------------------_____________-------------------________------------__________----------_________--------------__________ */
+				
+				table caption {
+				    font-size: 160%;
+				    font-family: monospace;
+				}
+				
+				table {
+				    /* font-family: Arial, Hrivetica, sans-serif;	 */
+				    padding: 1%;
+				    font-family: monospace;
+				    margin: auto;
+				}
+				
+				table tbody td {
+				    height: 5px;
+				    background-color: #130dc026;
+				    /* border: 10px solid #023f94fc;	 */
+				    background-color: #dce3ecfc;
+				    border: 10px solid #dce3ecfc;
+				    font-size: large;
+				    color: rgb(12 12 12);
+				    /* padding: 0px 50px; */
+				}
+				
+				table thead td {
+				    background-color: #023f94fc;
+				    font-size: 130%;
+				    color: white;
+				    text-align: center;
+				}
+				
+				table thead td img {
+				    width: 50px;
+				    border-radius: 40%;
+				}
+				
+				table thead td .yes {
+				    background-color: white;
+				}
+				
+				table thead td .no {
+				    background-color: red;
+				}
+				/* -----------_______________-------------_______________-_-------------- */
+				
+				table tbody tr td a {
+				    display: inline-block;
+				}
+				
+				table tbody tr td .whatsapp,
+				table tbody tr td .snapchat,
+				table tbody tr td .twitter,
+				table tbody tr td .linkedin,
+				table tbody tr td .instagram,
+				table tbody tr td .facebook {
+				    width: 10px;
+				}
+				/* ---------------------- */
+				
+				.fott {
+				    /* display: inline-block; */
+				    display: flex;
+				    width: 99%;
+				    margin-left: 0.5%;
+				    margin-top: 20px;
+				}
+				
+				.contant,
+				.about {
+				    border-right: 2px solid black;
+				}
+				
+				.contant h2 {
+				    display: flex;
+				    justify-content: space-around
+				}
+				/* .contant div{ */
+				/* display: flex; */
+				/* flex-direction: column; */
+				/* align-items: center;	 */
+				/* } */
+				
+				.contant,
+				.about,
+				.site {
+				    width: 33%;
+				    padding: 10px 20px;
+				}
+				
+				.exit {
+				    display: flex;
+				    justify-content: flex-end;
+				    align-items: flex-end;
+				}

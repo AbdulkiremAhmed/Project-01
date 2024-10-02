@@ -1,0 +1,62 @@
+.s-c input{
+    font-size: 16px;
+    padding: 10px 40px;
+    margin-bottom: 30px;
+    background-color: #d5bdbd;
+    color: #000;
+    cursor: pointer;	
+	transition-duration: .3s;
+}
+.s-c input:hover{
+    padding: 10px 50px;
+    background-color: #4f254f;
+    color: white;
+} 
+body{
+	text-align: center;
+    background-color: cadetblue;
+}
+.na input{
+	margin: 20px 0;
+    width: 280px;
+	padding: 5px 5px;
+	font-size: 16px;
+	line-height: 1;
+    border: 2px solid black;	
+}	
+.na label {
+	width: 25%;
+    display: inline-block;	
+	
+	
+}
+.typeedction input{
+	display: none;
+	
+}
+.typeedction label{
+    font-size: 16px;
+    padding: 10px 40px;
+    margin: auto;
+    background-color: #d5bdbd;
+    color: #000;
+    cursor: pointer;	
+	transition-duration: .3s;
+	
+}
+.typeedction input:checked + label{
+    background-color: #4f254f;
+    color: blanchedalmond;
+	
+}
+.typeedction{
+  display: inline-flex;
+  margin: 20px 0;
+  width: 100%;
+  /* background-color: aqua; */
+	
+}
+img{
+	width: 200px;
+	
+}

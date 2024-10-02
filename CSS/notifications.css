@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --main-color: #4f254f;
+    --second-color: #6e476ebd;
+    /* var(--main-color) */
+}
+
+video {
+    width: 400px;
+    height: 400px;
+}
+
+.notifications {
+    /* width: 90%; */
+    height: auto;
+    margin: auto;
+    background-color: #eee;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    justify-content: center;
+}
+
+.notifications .notification:active {
+    background-color: #954d75ad;
+    color: #ffffff;
+}
+
+
+/* .notifications .notification:visited{ */
+
+
+/* background-color: #efdccc; */
+
+
+/* color: #8f7777; */
+
+
+/* } */
+
+.notifications .notification {
+    width: 90%;
+    background-color: var(--second-color);
+    color: #eee;
+    font-family: system-ui;
+    padding: 5px;
+    margin: 5px auto;
+    transition-duration: 0.3s;
+}
+
+.notifications .notification h5 {
+    display: block;
+}
+
+.notifications .notification p {
+    width: 70%;
+    padding: 10px;
+    font-size: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.notifications .notification h6 {
+    width: 20%;
+    font-family: monospace;
+}
+
+.notifications .notification p,
+.notifications .notification h6 {
+    display: inline-block;
+}

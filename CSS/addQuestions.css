@@ -1,0 +1,25 @@
+.ch {
+    width: 90%;
+    margin: auto;
+}
+
+textarea {
+    width: 300px;
+    min-height: 50px;
+}
+
+img.add,
+img.delete {
+    width: 35px;
+    cursor: pointer;
+}
+
+.righr-or-wrogn,
+img.add,
+img.delete {
+    display: block
+}
+
+.ques {
+    display: block;
+}

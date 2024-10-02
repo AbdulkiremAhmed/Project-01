@@ -1,0 +1,221 @@
+:root{
+	--d-r: 10%;
+	--d-l: 10%;
+	--d-t: 10%;
+	--d-b: 10%;
+	--bo: 20px solid red;
+	--bonone: 20px solid transparent;
+	
+	
+	
+}
+
+div {
+  width: 200px;
+  height: 200px;
+  background-color: black;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%; 
+}
+/* span { */
+
+  /* position: absolute; */
+  /* width: 26px; */
+  /* height: 26px; */
+  /* background-color: white; */
+  /* border-radius: 50%; */
+  /* animation-duration: .7s; */
+  /* animation-iteration-count: infinite; */
+  /* animation-direction: alternate;  */
+/* } */
+/* span.span1 { */
+  /* left: 43%; */
+  /* top: 0px; */
+  /* animation-name: span1; */
+  /* animation-delay: 0s; */
+/* } */
+/* /* span.span2 { */ 
+  /* /* right: 5px; */ 
+  /* /* top: 56px; */ 
+  /* /* animation-name: span2; */ 
+  /* /* animation-delay: .3s; */ 
+/* /* } */ 
+/* span.span2 { */
+  /* left: 87%; */
+  /* top: 43%; */
+  /* animation-name: span2; */
+  /* animation-delay: .2s; */
+/* } */
+/* span.span3 { */
+  /* right: 43%; */
+  /* top: 86%; */
+  /* animation-name: span3; */
+  /* animation-delay: 0s; */
+/* } */
+/* /* span.span3 { */ 
+  /* /* right: 25px; */ 
+  /* /* top: 148px; */ 
+  /* /* animation-name: span3; */ 
+  /* /* animation-delay: .3s; */ 
+/* /* } */ 
+/* span.span4 { */
+  /* left: 0px; */
+  /* top: 43%; */
+  /* animation-name: span4; */
+  /* animation-delay: .2s; */
+/* } */
+/* span.span5 { */
+  /* left: 4px; */
+  /* top: 63px; */
+  /* animation-name: span5; */
+  /* animation-delay: .2s; */
+/* } */
+/* @keyframes span1{ */
+	/* 0%{ */
+      /* left: 43%; */
+      /* top: 0px; */
+	/* } */
+	/* 50%{ */
+      /* left: 50%; */
+      /* top: 50%; */
+      /* transform: translate(-50%, -50%); */
+	  /* background-color: red; */
+	/* } */
+	/* 100%{ */
+      /* left: 43%; */
+      /* top: 0px; */
+	/* } */
+/* } */
+/* @keyframes span2{ */
+	/* 0%{ */
+      /* left: 87%; */
+      /* top: 43%; */
+	/* } */
+	/* 50%{ */
+      /* left: 50%; */
+      /* top: 50%; */
+      /* transform: translate(-50%, -50%); */
+	  /* background-color: red;	   */
+	/* } */
+	/* 100%{ */
+      /* left: 87%; */
+      /* top: 43%; */
+	/* } */
+/* } */
+/* @keyframes span3{ */
+	/* 0%{ */
+      /* right: 43%; */
+      /* top: 86%; */
+	/* } */
+ 	/* 50%{ */
+      /* top: 43%; */
+	  /* background-color: red;	   */
+	/* } */
+	/* 100%{ */
+      /* right: 43%; */
+      /* top: 86%; */
+	/* } */
+/* } */
+/* @keyframes span4{ */
+	/* 0%{ */
+      /* left: 0px; */
+      /* top: 43%; */
+	/* } */
+	/* 50%{ */
+      /* left: 50%; */
+      /* top: 50%; */
+      /* transform: translate(-50%, -50%); */
+	  /* background-color: red;	   */
+	/* } */
+	/* 100%{ */
+      /* left: 0px; */
+      /* top: 43%; */
+	/* } */
+/* } */
+/* @keyframes spadn5{ */
+	/* 0%{ */
+        /* top: 10px; */
+	/* } */
+	/* 50%{ */
+        /* top: 15px; */
+	/* } */
+	/* 100%{ */
+        /* top: 20px; */
+	/* } */
+/* } */
+span{
+  position: absolute;	
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 160px;
+  height: 160px;	
+  border: var(--bonone);
+  border-radius: 50%;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  /* animation-direction: alternate; */
+}
+span.span1 {
+  border-top: var(--bo) !important;
+  animation-name: span1;
+  animation-delay: .15s;
+}
+span.span2 {
+  border-top: var(--bo) !important;
+  animation-name: span2;
+  animation-delay: .5s;
+}
+span.span3 {
+  border-top: var(--bo) !important;
+  animation-name: span3;
+  animation-delay: .75s;
+}
+span.span4 {
+  border-top: var(--bo) !important;
+  animation-name: span4;
+  animation-delay: 1s;
+}
+@keyframes span1{
+	0%{
+		transform: rotate(0deg);
+	}
+	50%{
+	}
+	100%{
+		transform: rotate(360deg);		
+	}
+}
+@keyframes span2{
+	0%{
+		transform: rotate(0deg);
+	}
+	50%{
+	}
+	100%{
+		transform: rotate(360deg);		
+	}
+}
+@keyframes span3{
+	0%{
+		transform: rotate(0deg);
+	}
+	50%{
+	}
+	100%{
+		transform: rotate(360deg);		
+	}
+}
+@keyframes span4{
+	0%{
+		transform: rotate(0deg);
+	}
+	50%{
+	}
+	100%{
+		transform: rotate(360deg);		
+	}
+}

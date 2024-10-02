@@ -1,0 +1,33 @@
+img{
+	width: 20px;
+	
+	
+	
+}
+.icon{
+	width: 50px;
+	height: 30px;
+	background-color: red;
+	
+	
+}
+.icon:hover + .profile{
+	display: block;
+	
+	
+	
+}
+
+.profile span:hover ~ div{
+	display: none;
+	
+	
+}
+
+
+.profile{
+	background-color: blue;
+	/* display: none; */
+	
+	
+}

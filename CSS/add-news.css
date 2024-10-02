@@ -1,0 +1,79 @@
+.add-news{
+    padding: 25px;	
+	
+}
+.add-news h2{
+	
+	
+}
+.add-news .start{
+	
+	
+}
+.add-news .start h3{
+    margin: 20px 0;	
+	
+}
+input{
+    border: none;
+    background-color: none;	
+	outline: none;	
+	
+}
+.add-news .start input[type="text"]{
+    width: 340px;
+	padding: 10px 10px;
+	font-size: 18px;
+	line-height: 1.4;
+    border: 2px solid black;	
+}
+.add-news .start textarea{
+    width: 100%;
+    min-height: 300px;	
+    border: none;
+    background-color: none;	
+	padding: 10px 10px;
+	font-size: 18px;
+	line-height: 1.4;
+	outline: none;	
+    border: 2px solid black;	
+}
+.add-news .add-image{
+    text-align: center;
+    margin: 50px 0;	
+}
+.add-news .add-image a{
+    color: #4f254f;
+}
+.add-news .add-image img{
+    width: 40px;	
+	
+}
+.add-news .up{
+    width: 80%;
+	margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;	
+	text-align: center;
+}
+.add-news .up input{
+    font-size: 16px;
+    padding: 10px 40px;
+    margin-bottom: 30px;
+    background-color: #d5bdbd;
+    color: #000;
+    cursor: pointer;	
+	transition-duration: .3s;
+}
+.add-news .up input:hover{
+    padding: 10px 50px;
+    background-color: #4f254f;
+    color: white;
+}
+	
+/* .add-news .up input[type="reset"]{ */
+	
+	
+/* } */

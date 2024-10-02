@@ -1,0 +1,40 @@
+body {
+    width: 90%;
+    text-align: center;
+    margin: auto;
+    background-color: mediumpurple
+}
+
+.hobby a {
+    text-decoration: none;
+    width: 20%;
+    height: 37px;
+    background-color: #7cf4f799;
+    margin: 10px 10px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 24%;
+    padding: 10px;
+    background-image: url("..\icon\outline_directions_run_black_48dp.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    color: rgb(218 218 218);
+}
+
+.hobby {
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.icon .adm {
+    background-color: #ff0b0b;
+    border-radius: 50%;
+    width: 50px;
+}
+
+.icon .add {
+    background-color: #ff0b0b;
+    border-radius: 50%;
+    width: 50px;
+}

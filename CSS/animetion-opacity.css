@@ -1,0 +1,610 @@
+/* ====================================================*/
+
+
+/* .wellcom{ */
+
+
+/* display: none; */
+
+
+/* /* display: block;	 */
+
+*/
+/* } */
+
+
+/* .cho-e-q{ */
+
+
+/* /* display: none; */
+
+*/
+/* display: block; */
+
+
+/* } */
+
+
+/* .animetion{ */
+
+
+/* display: none; */
+
+
+/* /* display: block; */
+
+*/
+/* } */
+
+
+/* .opacity{ */
+
+
+/* display: none; */
+
+
+/* /* display: block; */
+
+*/
+/* } */
+
+
+/* /* ==================================================== */
+
+*/
+/* :root{ */
+
+
+/* --main-color: #4f254f; */
+
+
+/* --second-color: #6e476ebd; */
+
+
+/* --third-color: #ff4fca; */
+
+
+/* --animation-one-color: #abe3ca; */
+
+
+/* --animation-two-color: #88d7d0; */
+
+
+/* --animation-three-color: #c7b6e7; */
+
+
+/* /* var(--main-color) */
+
+*/
+/* } */
+
+
+/* /*  */
+
+
+/* ___________START_Animetion________START_Animetion___________ */
+
+*/
+/* .wellcom{ */
+
+
+/* width: 70%; */
+
+
+/* height: 300px; */
+
+
+/* position: fixed; */
+
+
+/* left: 50%; */
+
+
+/* top: 50%; */
+
+
+/* transform: translate(-50%, -50%); */
+
+
+/* } */
+
+
+/* .wellcom video{ */
+
+
+/* width: 100%; */
+
+
+/* height: 100% */
+
+
+/* } */
+
+
+/* .wellcom h1{ */
+
+
+/* /* text-transform: uppercase; */
+
+*/
+/* font-weight: 800; */
+
+
+/* mix-blend-mode: multiply;	 */
+
+
+/* width: 100%; */
+
+
+/* height: 100%; */
+
+
+/* margin: auto; */
+
+
+/* position: absolute; */
+
+
+/* left: 0; */
+
+
+/* top: 0; */
+
+
+/* text-align: center; */
+
+
+/* display: flex; */
+
+
+/* justify-content: center; */
+
+
+/* align-items: center; */
+
+
+/* font-size: 3em; */
+
+
+/* font-family: sans-serif; */
+
+
+/* color: white; */
+
+
+/* font-variant: unset; */
+
+
+/* background-color: black; */
+
+
+/* } */
+
+
+/* .animetion { */
+
+
+/* width: 40%; */
+
+
+/* height: 50%; */
+
+
+/* background-color: var(--main-color); */
+
+
+/* position: fixed; */
+
+
+/* left: 50%; */
+
+
+/* top: 50%; */
+
+
+/* margin: auto; */
+
+
+/* transform: translate(-50%, -50%); */
+
+
+/* border-radius: 20%; */
+
+
+/* box-shadow: 2px 2px 30px 1px #797979; */
+
+
+/* z-index: 2021; */
+
+
+/* } */
+
+
+/* /*small*/
+
+*/
+/* @media (min-width: 440px){ */
+
+
+/* .animetion{ */
+
+
+/* height: 200px; */
+
+
+/* width: 240px; */
+
+
+/* } */
+
+
+/* } */
+
+
+/* /*small*/
+
+*/
+/* @media (min-width: 756px){ */
+
+
+/* .animetion{ */
+
+
+/* height: 200px; */
+
+
+/* } */
+
+
+/* } */
+
+
+/* /*mediun*/
+
+*/
+/* @media (min-width: 992px){ */
+
+
+/* .animetion{ */
+
+
+/* height: 250px; */
+
+
+/* }     */
+
+
+/* } */
+
+
+/* /*large*/
+
+*/
+/* @media (min-width: 1200px){ */
+
+
+/* .animetion{ */
+
+
+/* height: 50%; */
+
+
+/* }    */
+
+
+/* } */
+
+
+/* .animetion .span{ */
+
+
+/* border-radius: 50%; */
+
+
+/* position: absolute; */
+
+
+/* left: 50%; */
+
+
+/* top: 50%; */
+
+
+/* border-radius: 50%; */
+
+
+/* animation-iteration-count: infinite; */
+
+
+/* animation-timing-function: linear; */
+
+
+/* }	 */
+
+
+/* .animetion .span.s-1{ */
+
+
+/* width: 30px; */
+
+
+/* height: 30px; */
+
+
+/* border-top: 5px solid transparent; */
+
+
+/* border-left: 5px solid var(--animation-one-color); */
+
+
+/* border-right: 5px solid var(--animation-one-color); */
+
+
+/* border-bottom: 5px solid var(--animation-one-color); */
+
+
+/* margin-top: -20%; */
+
+
+/* margin-left: -20%; */
+
+
+/* animation-name: span-1; */
+
+
+/* animation-duration: .5s; */
+
+
+/* } */
+
+
+/* .animetion .span.s-2{ */
+
+
+/* width: 60px; */
+
+
+/* height: 60px; */
+
+
+/* border-top: 5px solid var(--animation-two-color); */
+
+
+/* border-left: 5px solid transparent; */
+
+
+/* border-right: 5px solid var(--animation-two-color); */
+
+
+/* border-bottom: 5px solid var(--animation-two-color); */
+
+
+/* margin-top: -35%; */
+
+
+/* margin-left: -35%; */
+
+
+/* animation-name: span-2; */
+
+
+/* animation-duration: .7s; */
+
+
+/* animation-direction: reverse; */
+
+
+/* } */
+
+
+/* .animetion .span.s-3{ */
+
+
+/* width: 90px; */
+
+
+/* height: 90px; */
+
+
+/* border-top: 5px solid var(--animation-three-color); */
+
+
+/* border-left: 5px solid var(--animation-three-color); */
+
+
+/* border-right: 5px solid transparent; */
+
+
+/* border-bottom: 5px solid var(--animation-three-color); */
+
+
+/* margin-top: -50%; */
+
+
+/* margin-left: -50%; */
+
+
+/* animation-name: span-3; */
+
+
+/* animation-duration: 1s; */
+
+
+/* } */
+
+
+/* @keyframes span-1{ */
+
+
+/* 0%{ */
+
+
+/* transform: rotate(0deg); */
+
+
+/* } */
+
+
+/* 100%{ */
+
+
+/* transform: rotate(360deg); */
+
+
+/* } */
+
+
+/* } */
+
+
+/* @keyframes span-2{ */
+
+
+/* 0%{ */
+
+
+/* transform: rotate(0deg); */
+
+
+/* } */
+
+
+/* 100%{ */
+
+
+/* transform: rotate(360deg); */
+
+
+/* } */
+
+
+/* } */
+
+
+/* @keyframes span-3{ */
+
+
+/* 0%{ */
+
+
+/* transform: rotate(0deg); */
+
+
+/* } */
+
+
+/* 100%{ */
+
+
+/* transform: rotate(360deg); */
+
+
+/* } */
+
+
+/* } */
+
+
+/* .animetion div{ */
+
+
+/* width: 100px; */
+
+
+/* height: 100px; */
+
+
+/* /* background-color: bisque; */
+
+*/
+/* position: relative; */
+
+
+/* top: 50%; */
+
+
+/* left: 50%; */
+
+
+/* transform: translate(-50%, -50%);	 */
+
+
+/* } */
+
+
+/* .animetion p { */
+
+
+/* width: fit-content; */
+
+
+/* color: var(--third-color); */
+
+
+/* position: absolute; */
+
+
+/* left: 50%; */
+
+
+/* top: 80%; */
+
+
+/* transform: translate(-50%, -50%); */
+
+
+/* font-family: sans-serif; */
+
+
+/* font-size: 16px; */
+
+
+/* font-weight: 800; */
+
+
+/* } */
+
+
+/* /* ---------------Opacity----------------- */
+
+*/
+/* .opacity{ */
+
+
+/* width: 100%; */
+
+
+/* height: 100%; */
+
+
+/* background-color: #bf777796; */
+
+
+/* opacity: 1; */
+
+
+/* z-index: 2000; */
+
+
+/* position: fixed; */
+
+
+/* left: 0; */
+
+
+/* top: 0; */
+
+
+/* } */
+
+
+/* /* ___________End_Animetion________End_Animetion_______*/
+
+
+/* */
+
+
+/* a { */
+
+
+/* text-decoration: none */

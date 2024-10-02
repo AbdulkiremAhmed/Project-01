@@ -1,0 +1,31 @@
+.about-of-College {}
+
+.about-of-College h2 {}
+
+.about-of .news {
+    width: 158px;
+    /* margin: auto; */
+    margin-bottom: 40px !important;
+    padding: 5px 10px;
+    border-radius: 30px;
+    border: 2px solid #4f254f;
+    /* font-size: 10px; */
+}
+
+.about-of .news h3 {
+    width: fit-content;
+}
+
+.about-of-College .history {}
+
+.about-of-College .history h3 {}
+
+.about-of-College .history .text {}
+
+.about-of-College .history .text p {}
+
+.about-of-College .location {}
+
+.about-of-College .location h3 {}
+
+.about-of-College .location .iframe {}

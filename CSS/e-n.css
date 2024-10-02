@@ -1,0 +1,87 @@
+body{
+	background-color: #b0adad;	
+	
+	
+}
+.code{
+	text-align: center;
+	
+}
+.form{
+	width: 85%;
+	margin: auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.user{
+	width: 80%;
+	margin: auto;
+	/* background-color: red; */
+    text-align: center;	
+	
+}
+.user label{
+    width: 190px;
+    display: inline-block;
+    font-size: 1em;
+}
+input[type="text"] {
+    width: 280px;
+    display: inline-block;
+    border: none;
+    outline: none;
+    line-height: 40px;
+    font-size: 1em;	
+}
+input[type="text"]:focus {
+    text-align: center;
+}
+::placeholder{
+    color: #b0b2b1;	
+	text-align: center;
+	
+}
+.done{
+	font-size: 1.2em;
+	width: 50px;
+	height: 25px;
+	padding: 10px 40px;
+	margin-bottom: 30px; 
+	background-color: #d5bdbd;
+    color: #000;
+}
+a{
+	text-decoration: none;
+	transition-duration: 0.2s;	
+}
+.done:active{
+    background-color: darkgray;
+    color: blanchedalmond; 
+	
+}
+
+.get{
+    width: 265px;
+    margin: 20px auto;
+    padding: 10px;
+    display: block;
+    background-color: #d3d3d3;
+    color: #000;	
+	
+	
+}
+.get:active{
+    background-color: #858484;
+    color: #fff;	
+}
+p:nth-child(2){
+    width: fit-content;
+    margin: auto;
+    font-size: 1.2em;
+    font-family: sans-serif;
+    border-bottom: 2px solid #b4cec7;
+	
+}

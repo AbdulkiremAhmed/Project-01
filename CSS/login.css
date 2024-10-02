@@ -1,0 +1,138 @@
+a {
+    text-decoration: none;
+}
+
+.body {
+    /* background-color: #0661897d; */
+    /* background-image: linear-gradient(200deg ,#fe14144f, #d48eff); */
+    /* width: 100%; */
+    height: 96vh;
+    font-family: monospace;
+    /* background-image: url("..\icon\"); */
+    background-image: url(..\icon\city.jpg);
+    /* background-image: url(..\icon\im2.jpg); */
+    /* background-image: url(..\icon\myproject.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment:  */
+}
+
+icon .body .log input::placeholder {
+    font-family: cursive;
+}
+
+.body .log {
+    opacity: .8;
+    width: 50%;
+    /* height: 50%; */
+    background-color: #f48fb1;
+    background-image: linear-gradient(45deg, #80ede3, #dd8181);
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    /* margin-top: 10%; */
+    /* margin-left: 25%; */
+    padding: 12px;
+    border-radius: 60px;
+    box-shadow: 2px 2px 30px 1px #818385b0;
+}
+
+.body .log .user input,
+.body .log .pass input {
+    margin: 2%;
+    border: none;
+    background-color: #d7fae8bf;
+    width: 40%;
+    padding: 10px 10px;
+    border-radius: 25px;
+    font-size: 18px;
+}
+
+.body .log input {
+    transition-duration: 0.7s;
+    outline: none;
+}
+
+.body .log .user input:focus,
+.body .log .pass input:focus {
+    border: none;
+    background-color: white;
+    width: 60%;
+    color: #000
+}
+
+.body .log .pass img {
+    width: 20px;
+    margin-right: -6%;
+    opacity: 0.5;
+}
+
+
+/* .pass img:hover{ */
+
+
+/* width: 60px; */
+
+
+/* background-image: url("..\icon\outline_visibility_off_black_48dp.png")	; */
+
+
+/* } */
+
+.body .log .do:hover,
+.body .log .sign:hover {
+    color: white;
+}
+
+.body .log .help {
+    cursor: help;
+}
+
+.body .log .help,
+.sign span {
+    border-bottom: 2px solid #5e6f7c;
+}
+
+.body .log .do,
+.body .log .sign {
+    color: black;
+    transition-duration: 0.5s;
+}
+
+.body .log .login input:focus {
+    width: 40%;
+    /* font-size: 125%; */
+    background-color: #f1f1f136;
+    color: black;
+}
+
+.body .log .login input {
+    width: 30%;
+    border: none;
+    padding: 5px;
+    margin: 5px 0;
+    color: white;
+    background-color: #54697eba;
+    border-radius: 25px;
+    /* font-size: 1em; */
+    cursor: pointer;
+}
+
+img {
+    opacity: .7;
+}
+
+h1 {
+    width: 150px;
+    margin: auto;
+    border-bottom: 3px solid #5e6f7c;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-size: 32px;
+    font-weight: 800;
+    mix-blend-mode: multiply;
+    font-variant: unset;
+    color: #556877;
+}

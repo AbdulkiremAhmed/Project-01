@@ -1,0 +1,111 @@
+body{
+	text-align: center;
+
+    background-color: cadetblue;
+    /* background-image: linear-gradient(200deg ,#1484fe, #93dde9);    */
+	
+}
+.form1{
+    width: 90%;
+	margin: auto;
+	
+	
+}
+input{
+    padding: 6px;
+    border-bottom: 1px solid indianred;
+    margin: 5px 0;
+    width: 50%;
+    color: saddlebrown;	
+	transition-duration: 0.7s;
+
+}
+.name label,
+.colleges label,
+.specialization label, 
+.semester label {
+	width: 25%;
+	/* background-color: red; */
+    display: inline-block;	
+	
+	
+}
+.name label:after{
+	content: ":"
+	
+}
+/* .do input:active, */
+/* .do input:active{ */
+    /* background-color: darkgray; */
+    /* color: blanchedalmond;	 */
+	/* width: 25%, */
+	
+/* } */
+/* .typeedction label{ */
+	/* display: flex; */
+	/* justify-content: space-bettwn; */
+	/* flex-direction: row-around; */
+	
+/* } */
+.typeedction input{
+	display: none;
+	
+}
+.typeedction input:checked + label{
+    background-color: darkgray;
+    color: blanchedalmond;
+	
+}
+.do{
+	margin-top: 5%;
+	/* margin: auto */
+	text-align: center;
+	
+}
+.do .next{
+	font-size: 1.2em;
+	width: 50px;
+	height: 25px;
+	padding: 10px 40px;
+	margin-bottom: 30px; 
+	text-decoration: none;
+	background-color: #efefef;
+    color: saddlebrown;	
+	
+}
+/* input[type="submit" ]{ */
+	/* width: 25%; */
+	/* background-color: #efefef; */
+    /* color: saddlebrown;	 */
+	
+/* } */
+.do .next:active{
+    background-color: darkgray;
+    color: blanchedalmond;
+    /* background-color: ; */
+    /* color: ; */
+	width: 35%;
+	
+}
+/* input[type="submit" ]:active{ */
+    /* background-color: darkgray; */
+    /* color: blanchedalmond; */
+    /* background-color: ; */
+    /* color: ; */
+	/* width: 35%; */
+	
+/* } */
+  
+.typeedction{
+	margin: 5%;
+    width: 100%;
+}
+
+.typeedction label {
+	background-color: #efefef;
+    color: saddlebrown;	
+    width: 30%;
+    padding: 2% 8%;
+    margin: 10%;
+	transition-duration: 0.7s;
+}

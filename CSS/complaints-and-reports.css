@@ -1,0 +1,21 @@
+a{
+	text-decoration: none;
+	
+}
+.number-1 .no,
+.number-4 .no,
+.number-7 .no,
+.number-8 .no,
+.number-10 .no{
+	display: none;
+	
+	
+}.number-2 .done,
+.number-3 .done,
+.number-5 .done,
+.number-6 .done,
+.number-9 .done{
+	display: none;
+	
+	
+}
